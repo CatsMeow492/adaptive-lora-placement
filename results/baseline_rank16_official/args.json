@@ -1,0 +1,17 @@
+{
+  "model_name": "microsoft/DialoGPT-medium",
+  "dataset_name": "tatsu-lab/alpaca",
+  "dataset_size": 200,
+  "lora_rank": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.1,
+  "learning_rate": 0.0003,
+  "num_epochs": 3,
+  "batch_size": 8,
+  "max_length": 512,
+  "gradient_accumulation_steps": 4,
+  "seed": 42,
+  "output_dir": "results",
+  "experiment_name": "baseline_rank16_official",
+  "save_model": false
+}

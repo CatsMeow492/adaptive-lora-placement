@@ -1,2 +1,22 @@
   0%|                                                                                | 0/18 [00:00<?, ?it/s]`loss_type=None` was set in the config but it is unrecognised.Using the default loss: `ForCausalLMLoss`.
- 39%|████████████████████████████                                            | 7/18 [00:35<00:52,  4.73s/it]
+100%|███████████████████████████████████████████████████████████████████████| 18/18 [01:26<00:00,  4.78s/it]
+{'loss': 6.2932, 'grad_norm': 1420381.625, 'learning_rate': 0.00015, 'epoch': 1.7}
+{'train_runtime': 87.3424, 'train_samples_per_second': 6.183, 'train_steps_per_second': 0.206, 'train_loss': 5.861712985568577, 'epoch': 3.0}
+INFO:__main__:Calculating final metrics...
+100%|█████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00,  3.79it/s]
+100%|█████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00,  3.54it/s]
+INFO:__main__:Results saved to: results/baseline_rank8_official/results.json
+
+============================================================
+EXPERIMENT SUMMARY
+============================================================
+Experiment: baseline_rank8_official
+LoRA Rank: 8
+Final Train Loss: 0.0000
+Final Eval Loss: 5.3147
+Final Perplexity: 203.31
+Trainable Parameters: 3,145,728
+Parameter Efficiency: 0.9%
+Training Time: 87.5 seconds
+============================================================
+INFO:__main__:Training completed successfully!

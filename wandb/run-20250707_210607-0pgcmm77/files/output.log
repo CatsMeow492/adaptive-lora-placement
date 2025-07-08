@@ -1,0 +1,23 @@
+  0%|                                                                                | 0/18 [00:00<?, ?it/s]`loss_type=None` was set in the config but it is unrecognised.Using the default loss: `ForCausalLMLoss`.
+100%|███████████████████████████████████████████████████████████████████████| 18/18 [01:28<00:00,  4.93s/it]
+{'loss': 202.1621, 'grad_norm': nan, 'learning_rate': 0.00015, 'epoch': 1.7}
+{'train_runtime': 90.0953, 'train_samples_per_second': 5.994, 'train_steps_per_second': 0.2, 'train_loss': 112.31226942274306, 'epoch': 3.0}
+INFO:__main__:Calculating final metrics...
+100%|█████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00,  3.66it/s]
+100%|█████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00,  3.59it/s]
+INFO:__main__:Results saved to: results/adaptive_attention_heavy_official/results.json
+
+============================================================
+EXPERIMENT SUMMARY
+============================================================
+Experiment: adaptive_attention_heavy_official
+Strategy: attention_heavy
+Base Rank: 16
+Final Train Loss: 0.0000
+Final Eval Loss: nan
+Final Perplexity: nan
+Trainable Parameters: 5,111,808
+Parameter Efficiency: 1.4%
+Training Time: 90.2 seconds
+============================================================
+INFO:__main__:Training completed successfully!

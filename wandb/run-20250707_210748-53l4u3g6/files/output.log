@@ -1,0 +1,25 @@
+  0%|                                                                                | 0/18 [00:00<?, ?it/s]`loss_type=None` was set in the config but it is unrecognised.Using the default loss: `ForCausalLMLoss`.
+100%|███████████████████████████████████████████████████████████████████████| 18/18 [01:27<00:00,  4.86s/it]
+{'loss': 530.0471, 'grad_norm': nan, 'learning_rate': 0.00015, 'epoch': 1.7}
+{'train_runtime': 88.6618, 'train_samples_per_second': 6.091, 'train_steps_per_second': 0.203, 'train_loss': 294.4706217447917, 'epoch': 3.0}
+INFO:__main__:Calculating final metrics...
+100%|█████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00,  3.85it/s]
+100%|█████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00,  3.80it/s]
+INFO:__main__:Results saved to: results/adaptive_empirical_official/results.json
+
+============================================================
+EXPERIMENT SUMMARY
+============================================================
+Experiment: adaptive_empirical_official
+Strategy: empirical
+Base Rank: 16
+Final Train Loss: 0.0000
+Final Eval Loss: nan
+Final Perplexity: nan
+Trainable Parameters: 3,538,944
+Parameter Efficiency: 1.0%
+Training Time: 88.8 seconds
+Average Rank: 15.2
+Rank Range: 9-19
+============================================================
+INFO:__main__:Training completed successfully!

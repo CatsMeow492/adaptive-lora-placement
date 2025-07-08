@@ -1,0 +1,25 @@
+  0%|                                                                                | 0/18 [00:00<?, ?it/s]`loss_type=None` was set in the config but it is unrecognised.Using the default loss: `ForCausalLMLoss`.
+100%|███████████████████████████████████████████████████████████████████████| 18/18 [01:22<00:00,  4.57s/it]
+{'loss': 6.0226, 'grad_norm': 0.8667105436325073, 'learning_rate': 0.00015, 'epoch': 1.7}
+{'train_runtime': 83.3747, 'train_samples_per_second': 6.477, 'train_steps_per_second': 0.216, 'train_loss': 5.582831064860026, 'epoch': 3.0}
+INFO:__main__:Calculating final metrics...
+100%|█████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00,  3.69it/s]
+100%|█████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00,  3.59it/s]
+INFO:__main__:Results saved to: results/adaptive_linear_decay_official/results.json
+
+============================================================
+EXPERIMENT SUMMARY
+============================================================
+Experiment: adaptive_linear_decay_official
+Strategy: linear_decay
+Base Rank: 16
+Final Train Loss: 0.0000
+Final Eval Loss: 5.1065
+Final Perplexity: 165.10
+Trainable Parameters: 6,291,456
+Parameter Efficiency: 1.7%
+Training Time: 83.5 seconds
+Average Rank: 9.5
+Rank Range: 4-16
+============================================================
+INFO:__main__:Training completed successfully!

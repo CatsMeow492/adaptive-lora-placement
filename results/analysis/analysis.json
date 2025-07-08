@@ -1,0 +1,35 @@
+{
+  "summary_stats": "                final_eval_loss         final_perplexity  ... parameter_efficiency training_time_seconds        \n                           mean     std             mean  ...                  std                  mean     std\nstrategy                                                  ...                                                   \nattention_heavy             NaN     NaN              NaN  ...                  NaN               90.2106     NaN\nbaseline                 5.1063  0.2947         168.6552  ...               0.0061               84.6257  4.0122\nempirical                   NaN     NaN              NaN  ...                  NaN               88.7866     NaN\nlinear_decay             5.1065     NaN         165.0961  ...                  NaN               83.5101     NaN\n\n[4 rows x 10 columns]",
+  "best_performance": {
+    "lowest_loss": "experiment_name          baseline_rank16_official\nexperiment_dir           baseline_rank16_official\nstrategy                                 baseline\nlora_rank                                      16\nfinal_train_loss                                0\nfinal_eval_loss                          4.897877\nfinal_perplexity                       134.004944\ntrainable_parameters                      6291456\ntotal_parameters                        361114624\nparameter_efficiency                     0.017422\ntraining_time_seconds                   81.788631\ndataset_size                                  200\nnum_epochs                                      3\nlearning_rate                              0.0003\nseed                                           42\navg_rank                                      NaN\nmin_rank                                      NaN\nmax_rank                                      NaN\nrank_std                                      NaN\nperplexity_per_param                    21.299512\nloss_improvement                          0.07843\nparam_ratio                                   2.0\nName: 4, dtype: object",
+    "lowest_perplexity": "experiment_name          baseline_rank16_official\nexperiment_dir           baseline_rank16_official\nstrategy                                 baseline\nlora_rank                                      16\nfinal_train_loss                                0\nfinal_eval_loss                          4.897877\nfinal_perplexity                       134.004944\ntrainable_parameters                      6291456\ntotal_parameters                        361114624\nparameter_efficiency                     0.017422\ntraining_time_seconds                   81.788631\ndataset_size                                  200\nnum_epochs                                      3\nlearning_rate                              0.0003\nseed                                           42\navg_rank                                      NaN\nmin_rank                                      NaN\nmax_rank                                      NaN\nrank_std                                      NaN\nperplexity_per_param                    21.299512\nloss_improvement                          0.07843\nparam_ratio                                   2.0\nName: 4, dtype: object",
+    "most_efficient": "experiment_name          baseline_rank8_official\nexperiment_dir           baseline_rank8_official\nstrategy                                baseline\nlora_rank                                      8\nfinal_train_loss                               0\nfinal_eval_loss                          5.31471\nfinal_perplexity                      203.305481\ntrainable_parameters                     3145728\ntotal_parameters                       357968896\nparameter_efficiency                    0.008788\ntraining_time_seconds                  87.462698\ndataset_size                                 200\nnum_epochs                                     3\nlearning_rate                             0.0003\nseed                                          42\navg_rank                                     NaN\nmin_rank                                     NaN\nmax_rank                                     NaN\nrank_std                                     NaN\nperplexity_per_param                   64.629072\nloss_improvement                             0.0\nparam_ratio                                  1.0\nName: 3, dtype: object",
+    "fastest_training": "experiment_name          baseline_rank16_official\nexperiment_dir           baseline_rank16_official\nstrategy                                 baseline\nlora_rank                                      16\nfinal_train_loss                                0\nfinal_eval_loss                          4.897877\nfinal_perplexity                       134.004944\ntrainable_parameters                      6291456\ntotal_parameters                        361114624\nparameter_efficiency                     0.017422\ntraining_time_seconds                   81.788631\ndataset_size                                  200\nnum_epochs                                      3\nlearning_rate                              0.0003\nseed                                           42\navg_rank                                      NaN\nmin_rank                                      NaN\nmax_rank                                      NaN\nrank_std                                      NaN\nperplexity_per_param                    21.299512\nloss_improvement                          0.07843\nparam_ratio                                   2.0\nName: 4, dtype: object"
+  },
+  "strategy_rankings": {
+    "final_eval_loss": {
+      "baseline": 5.106293201446533,
+      "linear_decay": 5.106527805328369,
+      "attention_heavy": NaN,
+      "empirical": NaN
+    },
+    "final_perplexity": {
+      "linear_decay": 165.0961151123047,
+      "baseline": 168.65521240234375,
+      "attention_heavy": NaN,
+      "empirical": NaN
+    },
+    "parameter_efficiency": {
+      "empirical": 0.009875329677708787,
+      "baseline": 0.013105018637426483,
+      "attention_heavy": 0.014202031869222956,
+      "linear_decay": 0.01742232405409314
+    },
+    "training_time_seconds": {
+      "linear_decay": 83.510119,
+      "baseline": 84.6256645,
+      "empirical": 88.786559,
+      "attention_heavy": 90.210599
+    }
+  }
+}

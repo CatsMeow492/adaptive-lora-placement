@@ -1,0 +1,65 @@
+{
+  "os": "macOS-14.6.1-arm64-arm-64bit-Mach-O",
+  "python": "CPython 3.13.3",
+  "startedAt": "2025-07-08T04:06:08.052889Z",
+  "args": [
+    "--strategy",
+    "attention_heavy",
+    "--base_rank",
+    "16",
+    "--min_rank",
+    "4",
+    "--max_rank",
+    "32",
+    "--dataset_size",
+    "200",
+    "--num_epochs",
+    "3",
+    "--batch_size",
+    "8",
+    "--learning_rate",
+    "3e-4",
+    "--seed",
+    "42",
+    "--experiment_name",
+    "adaptive_attention_heavy_official"
+  ],
+  "program": "/Users/taylormohney/Documents/GitHub/adaptive-lora-placement/scripts/train_adaptive.py",
+  "codePath": "scripts/train_adaptive.py",
+  "git": {
+    "remote": "https://github.com/CatsMeow492/adaptive-lora-placement.git",
+    "commit": "2eb8d770e8247edd73adb2c863d154ad6193d9d5"
+  },
+  "email": "taylormohneytech@gmail.com",
+  "root": "/Users/taylormohney/Documents/GitHub/adaptive-lora-placement",
+  "host": "Taylors-MBP-2",
+  "executable": "/Users/taylormohney/Documents/GitHub/parameter-efficient-tuning/venv/bin/python",
+  "codePathLocal": "scripts/train_adaptive.py",
+  "cpu_count": 12,
+  "cpu_count_logical": 12,
+  "disk": {
+    "/": {
+      "total": "994662584320",
+      "used": "792746622976"
+    },
+    "/System/Volumes/Data": {
+      "total": "994662584320",
+      "used": "792746622976"
+    }
+  },
+  "memory": {
+    "total": "103079215104"
+  },
+  "cpu": {
+    "count": 12,
+    "countLogical": 12
+  },
+  "apple": {
+    "name": "Apple M2 Max",
+    "ecpuCores": 4,
+    "pcpuCores": 8,
+    "gpuCores": 38,
+    "memoryGb": 96,
+    "ramTotalBytes": "103079215104"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "experiment_name": "baseline_rank16_official",
+  "model_name": "microsoft/DialoGPT-medium",
+  "dataset_name": "tatsu-lab/alpaca",
+  "dataset_size": 200,
+  "lora_rank": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.1,
+  "learning_rate": 0.0003,
+  "num_epochs": 3,
+  "batch_size": 8,
+  "seed": 42,
+  "training_time_seconds": 81.788631,
+  "final_train_loss": 0,
+  "final_eval_loss": 4.897876739501953,
+  "final_perplexity": 134.00494384765625,
+  "trainable_parameters": 6291456,
+  "total_parameters": 361114624,
+  "parameter_efficiency": 0.01742232405409314,
+  "timestamp": "2025-07-07T21:04:23.470473"
+}
