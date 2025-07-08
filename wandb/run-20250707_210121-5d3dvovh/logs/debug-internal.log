@@ -1,0 +1,7 @@
+{"time":"2025-07-07T21:01:21.291384-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/taylormohney/Documents/GitHub/adaptive-lora-placement/wandb/run-20250707_210121-5d3dvovh/logs/debug-core.log"}
+{"time":"2025-07-07T21:01:21.592002-07:00","level":"INFO","msg":"created new stream","id":"5d3dvovh"}
+{"time":"2025-07-07T21:01:21.592041-07:00","level":"INFO","msg":"stream: started","id":"5d3dvovh"}
+{"time":"2025-07-07T21:01:21.592081-07:00","level":"INFO","msg":"sender: started","stream_id":"5d3dvovh"}
+{"time":"2025-07-07T21:01:21.592072-07:00","level":"INFO","msg":"handler: started","stream_id":"5d3dvovh"}
+{"time":"2025-07-07T21:01:21.592068-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"5d3dvovh"}
+{"time":"2025-07-07T21:01:21.784833-07:00","level":"INFO","msg":"Starting system monitor"}

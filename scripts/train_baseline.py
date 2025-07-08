@@ -335,6 +335,11 @@ def main():
     final_perplexity = calculate_perplexity(trainer, eval_dataset)
     trainable_params, total_params = count_parameters(model)
     
+    # Get final metrics from trainer state
+    final_eval_results = trainer.evaluate(eval_dataset=eval_dataset)
+    final_train_loss = getattr(train_result.metrics, 'train_loss', 0)
+    final_eval_loss = final_eval_results.get('eval_loss', 0)
+    
     # Prepare results
     results = {
         "experiment_name": args.experiment_name,
@@ -349,8 +354,8 @@ def main():
         "batch_size": args.batch_size,
         "seed": args.seed,
         "training_time_seconds": training_time,
-        "final_train_loss": getattr(train_result, 'training_history', [{'train_loss': 0}])[-1].get('train_loss', 0),
-        "final_eval_loss": getattr(train_result, 'training_history', [{'eval_loss': 0}])[-1].get('eval_loss', 0),
+        "final_train_loss": final_train_loss,
+        "final_eval_loss": final_eval_loss,
         "final_perplexity": final_perplexity,
         "trainable_parameters": trainable_params,
         "total_parameters": total_params,
