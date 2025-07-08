@@ -265,6 +265,7 @@ If you use this work in your research, please cite:
 ## 📫 Contact & Support
 
 - **Lead Researcher**: Taylor Mohney
+- **Researchers**: Dorian Hryniewicki
 - **Affiliation**: University of Nevada, Las Vegas
 - **Email**: mohney@unlv.nevada.edu
 - **GitHub Issues**: For technical questions and bug reports
