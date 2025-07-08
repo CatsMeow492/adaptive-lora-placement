@@ -1,0 +1,28 @@
+{
+  "os": "macOS-14.6.1-arm64-arm-64bit-Mach-O",
+  "python": "CPython 3.13.3",
+  "startedAt": "2025-07-08T03:57:59.560545Z",
+  "args": [
+    "--lora_rank",
+    "8",
+    "--dataset_size",
+    "200",
+    "--num_epochs",
+    "3",
+    "--batch_size",
+    "8",
+    "--learning_rate",
+    "3e-4",
+    "--seed",
+    "42",
+    "--experiment_name",
+    "baseline_rank8_official"
+  ],
+  "program": "/Users/taylormohney/Documents/GitHub/adaptive-lora-placement/scripts/train_baseline.py",
+  "codePath": "scripts/train_baseline.py",
+  "email": "taylormohneytech@gmail.com",
+  "root": "/Users/taylormohney/Documents/GitHub/adaptive-lora-placement",
+  "host": "Taylors-MBP-2",
+  "executable": "/Users/taylormohney/Documents/GitHub/parameter-efficient-tuning/venv/bin/python",
+  "codePathLocal": "scripts/train_baseline.py"
+}

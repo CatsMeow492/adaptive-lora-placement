@@ -1,0 +1,15 @@
+{"time":"2025-07-07T20:58:55.848689-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/taylormohney/Documents/GitHub/adaptive-lora-placement/wandb/run-20250707_205855-dibkno6k/logs/debug-core.log"}
+{"time":"2025-07-07T20:58:56.069055-07:00","level":"INFO","msg":"created new stream","id":"dibkno6k"}
+{"time":"2025-07-07T20:58:56.069094-07:00","level":"INFO","msg":"stream: started","id":"dibkno6k"}
+{"time":"2025-07-07T20:58:56.069106-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"dibkno6k"}
+{"time":"2025-07-07T20:58:56.069121-07:00","level":"INFO","msg":"handler: started","stream_id":"dibkno6k"}
+{"time":"2025-07-07T20:58:56.069106-07:00","level":"INFO","msg":"sender: started","stream_id":"dibkno6k"}
+{"time":"2025-07-07T20:58:56.288917-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-07T21:00:14.581132-07:00","level":"INFO","msg":"stream: closing","id":"dibkno6k"}
+{"time":"2025-07-07T21:00:14.581222-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-07T21:00:14.581298-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-07T21:00:15.041795-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-07T21:00:15.46221-07:00","level":"INFO","msg":"handler: closed","stream_id":"dibkno6k"}
+{"time":"2025-07-07T21:00:15.462233-07:00","level":"INFO","msg":"sender: closed","stream_id":"dibkno6k"}
+{"time":"2025-07-07T21:00:15.462225-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"dibkno6k"}
+{"time":"2025-07-07T21:00:15.46269-07:00","level":"INFO","msg":"stream: closed","id":"dibkno6k"}

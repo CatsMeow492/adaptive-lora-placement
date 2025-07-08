@@ -1,0 +1,14 @@
+ ... (more hidden) ...`loss_type=None` was set in the config but it is unrecognised.Using the default loss: `ForCausalLMLoss`.
+ ... (more hidden) ...
+{'loss': 6.4271, 'grad_norm': 952473.9375, 'learning_rate': 0.00015, 'epoch': 1.7}
+{'train_runtime': 76.7473, 'train_samples_per_second': 7.036, 'train_steps_per_second': 0.235, 'train_loss': 5.947073406643337, 'epoch': 3.0}
+INFO:__main__:Calculating final metrics...
+100%|█████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00,  3.79it/s]
+Traceback (most recent call last):
+  File "/Users/taylormohney/Documents/GitHub/adaptive-lora-placement/scripts/train_baseline.py", line 395, in <module>
+    main()
+    ~~~~^^
+  File "/Users/taylormohney/Documents/GitHub/adaptive-lora-placement/scripts/train_baseline.py", line 352, in main
+    "final_train_loss": train_result.training_history[-1]["train_loss"],
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TrainOutput' object has no attribute 'training_history'
